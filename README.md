@@ -1,2 +1,2 @@
 ## iColtz Website
-The offical website of [iColtz](https://www.github.com/iColtz)
+The official website of [iColtz](https://www.github.com/iColtz)
