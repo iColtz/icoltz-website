@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>			
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body class="js-stop-transition">
+    <div class="icon-bar">
+      <a id ="icon" href="/"><i class="fa fa-home"></i></a> 
+      <a id="icon" href="/aboutme"><i class="fa fa-user"></i></a>
+      <a id="icon" href="/mywork"><i class="fa fa-briefcase"></i></a>
+      <a class="current" id="icon" href="/contactme"><i class="fa fa-envelope"></i></a>  
+
+      <div class="socials">
+        <a id="social" target="_blank" href="https://www.twitter.com/iiColtz"><i class="fa fa-twitter"></i></a>
+        <a id="social" target="_blank" href="https://www.github.com/iColtz"><i class="fa fa-github"></i></a>
+      </div>
+    </div>
+    <div class="center-position">
+      <h2 class="red-fade" id="contactme-header">Contact Me</h2>
+      <form action="mailto:icoltz@outlook.com" method="post" autocomplete="off" enctype="text/plain">
+        <input name="name" type="text" class="form-control" placeholder="Name"><br>
+        <input name="email" type="email" class="form-control" placeholder="Email"><br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="4"></textarea><br>
+        <button type="submit" class="form-control" id="submit-button"><i class="fa fa-paper-plane"></i> SEND</button>
+      </form>
+    </div>
+    <script>document.body.classList.remove('js-stop-transition')</script>
+  </body>
+</html>
